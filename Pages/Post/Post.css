@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #F3F3F3;
+    font-family: Inter;
+}
+.content{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .content{
+        display: block;
+    }
+    .Badan{
+        width: 100%;
+    }
+
+    /*      Navigasi Atas       */
+    *{
+        .NavigasiMenuHeadAtas{
+            color: black;
+            background-color: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+            width: 100%;
+            height: 70px;
+        }
+        .NavigasiMenu{
+            padding-left: 26px;
+            padding-right: 30px;
+            padding-top: 20px;
+            position: relative;
+            align-items: center;
+            display: flex;
+        }
+        /*      Logo        */
+        .LogoNavigasiMenuAtas{
+            width: 40%;
+            font-weight: 300;
+            font-size: 9px;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .LogoNavigasiMenuAtas h1{
+            font-weight: 500;
+        }
+        .NavBatalkan a{
+            text-decoration: none;
+            color: black;
+        }
+        .NavNext{
+            width: 40%;
+            text-align: right;
+            margin-left: 10px;
+            color: #00AA01;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    /*      MobileNavigasi      */
+    *{
+        .MobileNavigasiBox{
+            background-color: white;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 4rem;
+            position: fixed;
+            bottom: 0;
+        }
+        .MobileNavigasiBoxIcon{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            padding: 20px;
+        }
+    }
+}

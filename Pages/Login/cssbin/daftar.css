@@ -1,0 +1,268 @@
+body{
+    display:flex;
+    background: #F3F3F3;
+    background-size: cover;
+    margin: 0px;
+    padding: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Inter';
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    padding: 0px;
+}
+
+label{
+    display:block;
+}
+fieldset{
+    border:none;
+}
+form .alert-salah{
+    background:red;
+    text-align:center;
+    color:white;
+    font-weight:600;
+    height:40px;
+    padding-top:15px;
+    border-radius:10px;
+}
+.daftar-box {
+    background: white;
+    width: 500px;
+    height: 500px;
+    margin-top:0px;
+    border-radius:20px;
+    text-align: left;
+    padding: 20px;
+}
+.daftar-box h1{
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.daftar-box li{
+    text-decoration: none;
+    list-style: none;
+}
+.tombol {
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.tombol button {
+    background:none;
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.tombol button:hover{
+    border:none;
+    color:white;
+    background:#00AA01;
+}
+.tombol2 {
+    padding:0px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+.tombol2 button {
+    background:none;
+    margin:5px;
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.tombol2 button:hover{
+    border:none;
+    color:white;
+    background:#00AA01;
+}
+.kolum{
+    width: 94%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border:  1px solid black;
+    border-radius:10px;
+    padding-left: 10px;
+}
+.usernamebox .kolum{
+    width: 90%;
+    height: 20px;
+    border:  none;
+    border-radius:10px;
+    padding-left: 10px;
+    background: white;
+    color:black;
+    outline: none;
+    
+    
+}
+.password-input-container{
+    outline: 1px solid black;
+    width: 97%;
+    border-radius:10px;
+    justify-content: space-between;
+    display: flex;
+}
+.password-input-container .kolum{
+    width: 82%;
+    height: 40px;
+    font-size: 15px;
+    border:  none;
+    padding-left:10px;
+    font-weight: 400;
+    background: white;
+    color:black;
+    outline: none;
+}
+.show-pass{
+    display: flex;
+}
+.password-input-container {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.persetujuan{
+    display: flex;
+    font-size: 16px;
+}
+.persetujuan input{
+    width:30px;
+    bottom: 0px;
+    position: relative;
+    top:0px;
+}
+.masuk{
+    font-size:20px;
+    position: relative;
+    text-align:center;
+}
+.penjelasan{
+    width:50%;
+    color:black;
+    font-size:25px;
+}
+.penjelasan p{
+    font-size:22px;
+}
+
+@media (max-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        width: 100%;
+        padding: 0px;
+    }
+    .daftar-box .register-judul{
+        font-size: 20px;
+    }
+    .penjelasan{
+        display: none;
+    }
+    label{
+        font-size: 12px;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .daftar-box {
+        background: white;
+        width: 100%;
+        height: 500px;
+        margin-top:60px;
+        border-radius:20px;
+        text-align: left;
+        padding: 0px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .daftar-box ul li{
+        margin-top: 5px;
+    }
+    .kolum{
+        width: 93.5%;
+        font-weight: 400;
+        font-size: 15px;
+        padding-left: 10px;
+        outline: none;
+    }
+    .usernamebox .kolum{
+        width: 90%;
+        height: 20px;
+        border:  none;
+        border-radius:10px;
+        padding-left: 10px;
+        background: white;
+        color:black;
+        outline: none;
+        
+        
+    }
+    .password-input-container{
+        outline: 1px solid black;
+        width: 97%;
+        border-radius:10px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .password-input-container .kolum{
+        width: 82%;
+        height: 40px;
+        font-size: 15px;
+        border:  none;
+        padding-left:10px;
+        font-weight: 400;
+        background: white;
+        color:black;
+        outline: none;
+    }
+    .password-toggle {
+        width: 10%;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .password-toggle i{
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .pemberitahuan{
+        width: 90%;
+    }
+    .tombol button{
+        width: 40%;
+    }
+    .user-field{
+        padding: 0px 0px 0px 10px;
+    }
+    .persetujuan{
+        font-size: 14px;
+    }
+    .masuk{
+        font-size: 15px;
+    }
+
+    .daftar-box .kolum{
+        padding-left: 10px;
+    }
+}

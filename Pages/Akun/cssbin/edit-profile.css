@@ -1,0 +1,1201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F3F3;
+    font-family: Inter;
+}
+
+    /*              Desktop Device              */
+*{          
+
+    /*       Backup        */
+    *{
+    .Desktop{
+        display: block;
+    }
+    .Mobile{
+        display: none;
+    }
+    .Badan-Desktop{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .Informasi-Akun{
+        width: 100%;
+    }
+    .post-feed-mobile{
+        display: none;
+    }
+    }
+
+    /*      Navigasi Atas       */
+    *{
+        .NavigasiMenuHeadAtas{
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            z-index: 99999999;
+            width: 100%;
+            height: 100px;
+        }
+        .NavigasiMenu{
+            align-items: center;
+            padding-left: 35px;
+            padding-top: 20px;
+            padding-right: 35px;
+            position: relative;
+            display: flex;
+        }
+        /*      Logo        */
+        .LogoNavigasiMenuAtas{
+            width: 20%;
+            font-weight: 400;
+            margin-top: 6px;
+            font-size: 12px;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .LogoNavigasiMenuAtas a{
+            display: flex;
+            text-decoration: none;
+            color: black;
+        }
+        .LogoNavigasiMenuAtas h1{
+            margin-left: 10px;
+        }
+        /*      Search Bar Atas     */
+        .SearchNavigasiAtas{
+            width: 40%;
+            margin-right: 20px;
+            margin-left: 15%;
+        }
+        .element-search{
+            width: 100%;
+            color: white;
+            border: none;
+        }
+        .search{
+            border: none;
+            background-color: #E9E9E9;
+            color: black;
+            border-radius: 10px;
+            width: 100%;
+            height: 50px;
+            padding-left: 15px;
+        }
+        /*      Profile     */
+        .Profile{
+            width: 5%;
+            margin-left: 8px;
+        }
+        .Profile img{
+            border-radius: 50px;
+            width: 48px;
+        }
+        .Logout{
+            display: none;
+        }
+        .m-navigasi-hide{
+            display: none;
+        }
+    }
+    
+
+
+
+    /*      Navigasi Samping        */
+    *{
+        .Des-Navigasi-Samping{
+            width: 20%;
+            height: 1000px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: block;
+            position: relative;
+        }
+        .Nav-Navigasi-Samping{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: block;
+            justify-content: space-between;
+        }
+        .Nav-Navigasi-Samping a{
+            text-decoration: none;
+            color: black;
+        }
+        .Nav-Navigasi-Samping a:hover{
+            color: #00AA01;
+        }
+        .Navigasi-Samping-Pilihan{
+            width: 100%;
+            height: auto;
+            display: flex;
+            padding: 1rem 0rem 1rem 3rem;
+            align-items: center;
+        }
+        .Navigasi-Samping-Pilihan-icon{
+            width: 10%;
+        }
+        .Navigasi-Samping-Pilihan-Text h1{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .Navigasi-Samping-Pilihan-Button{
+            width: 100%;
+            height: auto;
+            margin: 0.3rem 0rem 2rem 0rem;
+        }
+        .Navigasi-Samping-Pilihan-Logout{
+            width: 100%;
+            height: 2.5rem;
+            text-align: center;
+            
+        }
+        .Navigasi-Samping-Pilihan-Logout button{
+            width: 75%;
+            height: 100%;
+            font-weight: 700;
+            border-radius: 8px;
+            background: none;
+        }
+        .Navigasi-Samping-Pilihan-Logout button:hover{
+            background: #00AA01;
+            color: white;
+            border: none;
+        }
+    }
+
+    /*       Edit Profile Layar      */
+    *{
+        .Edit-Profile{
+            width: 80%;
+        }
+        .Edit-Profile-Frame{
+            width: 100%;
+            height: auto;
+            margin-top: 1rem;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            text-align: center;
+            display: flex;
+        }
+        .Edit-Profile-Framebox{
+            width: 80%;
+            height: auto;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .Profile-Image{
+            width: 100%;
+            height: 7.5rem;
+            
+        }
+        .Profile-Image img{
+            width: 10%;
+            height: 100%;
+            border-radius: 100px;
+            object-fit: cover;
+            object-position: center center;
+            box-shadow: 0px 0px 10px rgba(92, 92, 92, 0.1);
+        }
+        .Ubah-Profile{
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .Ubah-Profile button{
+            width: 14%;
+            height: 2.5rem;
+            font-weight: 700;
+            border-radius: 5px;
+            background: none;
+            margin: 5px;
+        }
+        .Ubah-Profile form{
+            width: 14%;
+            height: 2.5rem;
+            font-weight: 700;
+            border-radius: 5px;
+            background: none;
+            
+        }
+        .Ubah-Profile form button{
+            width: 100%;
+            height: 100%;
+            font-weight: 700;
+            border-radius: 5px;
+            background: none;
+            
+        }
+        .Ubah-Profile button:hover{
+            background: #00AA01;
+            border: none;
+            color: white;
+        }
+        .Edit-Profile-User{
+            width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .Edit-Profile-User-Box:hover .User-Profile{
+            color: #00AA01;
+        }
+        .Edit-Profile-User a{
+            width: 100%;
+            text-decoration: none;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+        }
+        .User-Profile{
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .User-Profile-Link{
+            width: 100%;
+            font-weight: 700;
+            text-align: right;
+        }
+        .User-Profile-Link a{
+            justify-content: end;
+        }
+
+    }
+
+    /*      Edit Profile Username         */
+    *{
+    .Bar-Edit-Username{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Bar-Edit-Username-Frame{
+        width: 80%;
+        height: 80%;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+    .Bar-Edit-Username-FrameBox{
+        display: block;
+        padding: 40px;
+    }
+    .Nav-Bar-Edit-Username{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Nav-Bar-Edit-Username-Action{
+        display: flex;
+        align-items: center;
+    }
+    .Nav-Bar-Edit-Username-Action:hover{
+        color: #00AA01;
+    }
+    .Nav-Bar-Edit-Username-Action h3{
+        margin-left: 10px;
+    }
+    .Nav-Bar-Edit-Save-Action input{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Save-Button{
+        color: #00AA01;
+        width: 100%;
+        background: none;
+        border: none;
+    }
+    .Save-Button:hover{
+        color: #a9e1a9;
+    }
+
+    /*      User-Field        */
+    ul{
+        padding: 0px;
+    }
+    label{
+        display:block;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    fieldset{
+        border:none;
+    }
+    .alert-gagal{
+        background:red;
+        text-align:center;
+        color:white;
+        font-weight:600;
+        height:40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .User-Field {
+        background: white;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        border-radius:20px;
+        text-align: left;
+        padding: 20px;
+    }
+    .User-Field h1{
+        padding: 0px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .User-Field li{
+        text-decoration: none;
+        list-style: none;
+    }
+    .kolum{
+        width: 60%;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 500;
+        border:  1px solid black;
+        border-radius:10px;
+        padding-left: 10px;
+    }
+
+    }
+
+    /*      Edit Profile Bio         */
+    *{
+        .Bar-Edit-Bio{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Bar-Edit-Bio-Frame{
+            width: 80%;
+            height: 80%;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+        .Bar-Edit-Bio-FrameBox{
+            display: block;
+            padding: 40px;
+        }
+        .Nav-Bar-Edit-Bio{
+            display: flex;
+            justify-content: space-between;
+        }
+        .Nav-Bar-Edit-Bio-Action{
+            display: flex;
+            align-items: center;
+        }
+        .Nav-Bar-Edit-Bio-Action:hover{
+            color: #00AA01;
+        }
+        .Nav-Bar-Edit-Bio-Action h3{
+            margin-left: 10px;
+        }
+        .Nav-Bar-Edit-Save-Action input{
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .Save-Button{
+            color: #00AA01;
+            width: 100%;
+            background: none;
+            border: none;
+        }
+        .Save-Button:hover{
+            color: #a9e1a9;
+        }
+        .Bio-User{
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .Bio-User p{
+            width: 50%;
+        }
+    
+        /*      User-Field        */
+        ul{
+            padding: 0px;
+        }
+        label{
+            display:block;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        fieldset{
+            border:none;
+        }
+        .alert-gagal{
+            background:red;
+            text-align:center;
+            color:white;
+            font-weight:600;
+            height:40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+        .User-Field-Bio {
+            background: white;
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius:20px;
+            text-align: left;
+            padding: 20px;
+        }
+        .User-Field-Bio input{
+            width: 60%;
+            height: 5rem;
+        }
+        .User-Field-Bio h1{
+            padding: 0px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .User-Field-Bio li{
+            text-decoration: none;
+            list-style: none;
+        }
+        .kolum-Bio{
+            width: 60%;
+            height: 150px;
+            font-size: 20px;
+            font-weight: 500;
+            border:  1px solid black;
+            border-radius:10px;
+            padding-left: 10px;
+        }
+    
+        }
+    
+    /*      Edit Profile Bio         */
+    *{
+        .Bar-Edit-ProfileImage{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Bar-Edit-ProfileImage-Frame{
+            width: 80%;
+            height: 80%;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
+        .Bar-Edit-ProfileImage-FrameBox{
+            display: block;
+            padding: 40px;
+        }
+        .Nav-Bar-Edit-ProfileImage{
+            display: flex;
+            justify-content: space-between;
+        }
+        .Nav-Bar-Edit-ProfileImage-Action{
+            display: flex;
+            align-items: center;
+        }
+        .Nav-Bar-Edit-ProfileImage-Action:hover{
+            color: #00AA01;
+        }
+        .Nav-Bar-Edit-ProfileImage-Action h3{
+            margin-left: 10px;
+        }
+        .Nav-Bar-Edit-Save-Action input{
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .Save-Button{
+            color: #00AA01;
+            width: 100%;
+            background: none;
+            border: none;
+        }
+        .Save-Button:hover{
+            color: #a9e1a9;
+        }
+        .ProfileImage-User{
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .ProfileImage-User p{
+            width: 50%;
+        }
+    
+        /*      User-Field        */
+        ul{
+            padding: 0px;
+        }
+        label{
+            display:block;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        fieldset{
+            border:none;
+        }
+        .alert-gagal{
+            background:red;
+            text-align:center;
+            color:white;
+            font-weight:600;
+            height:40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+        .User-Field-ProfileImage {
+            background: white;
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius:20px;
+            text-align: left;
+            padding: 20px;
+        }
+        .User-Field-ProfileImage input{
+            width: 60%;
+            height: 5rem;
+        }
+        .User-Field-ProfileImage h1{
+            padding: 0px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .User-Field-ProfileImage li{
+            text-decoration: none;
+            list-style: none;
+        }
+        .kolum-ProfileImage{
+            width: 60%;
+            height: 150px;
+            font-size: 20px;
+            font-weight: 500;
+            border:  1px solid black;
+            border-radius:10px;
+            padding-left: 10px;
+        }
+    
+        }
+
+
+
+
+
+
+
+    /*      Laptop Device         */
+    *{
+        @media (max-width: 1366px){
+            .Des-Navigasi-Samping{
+                width: 25rem;
+                height: 1000px;
+                background: white;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                display: block;
+                position: relative;
+            }
+            .Nav-Navigasi-Samping{
+                width: 100%;
+                height: 100%;
+                position: relative;
+                display: block;
+                justify-content: space-between;
+            }
+            .Nav-Navigasi-Samping a{
+                text-decoration: none;
+                color: black;
+            }
+            .Nav-Navigasi-Samping a:hover{
+                color: #00AA01;
+            }
+            .Navigasi-Samping-Pilihan{
+                width: 100%;
+                height: auto;
+                display: flex;
+                padding: 1rem 0rem 1rem 3rem;
+                align-items: center;
+            }
+            .Navigasi-Samping-Pilihan-icon{
+                width: 10%;
+            }
+            .Navigasi-Samping-Pilihan-Text h1{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .Navigasi-Samping-Pilihan-Button{
+                width: 100%;
+                height: auto;
+                margin: 0.3rem 0rem 2rem 0rem;
+            }
+            .Navigasi-Samping-Pilihan-Logout{
+                width: 100%;
+                height: 2.5rem;
+                text-align: center;
+                
+            }
+            .Navigasi-Samping-Pilihan-Logout button{
+                width: 75%;
+                height: 100%;
+                font-weight: 700;
+                border-radius: 8px;
+                background: none;
+            }
+            .Navigasi-Samping-Pilihan-Logout button:hover{
+                background: #00AA01;
+                color: white;
+                border: none;
+            }
+
+            .Profile-Image{
+                width: 100%;
+                height: 5rem;
+                
+            }
+            .Profile-Image img{
+                width: 10%;
+                height: 100%;
+                border-radius: 100px;
+                object-fit: cover;
+                object-position: center center;
+                box-shadow: 0px 0px 10px rgba(92, 92, 92, 0.1);
+            }
+            
+        }
+    }
+
+
+
+    /*      Mobile Device     */
+    *{
+        @media (max-width: 768px){
+        
+        /*          Desktop fitur         */
+        *{
+        .Profile{
+            display: none;
+        }
+        .Mobile{
+            display: block;
+        }
+        body{
+            background: white;
+        }
+        .Des-Navigasi-Samping{
+            display: none;
+        }
+        
+        .MobileNavigasi{
+            display: flex;
+        }
+        }
+
+        /*      Navigasi Atas       */
+        *{
+        .NavigasiMenuHeadAtas{
+            background-color: white;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            z-index: 0;
+            width: 100%;
+            height: 70px;
+        }
+        .NavigasiMenu{
+            padding-left: 26px;
+            padding-right: 30px;
+            padding-top: 20px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        /*      Logo        */
+        .LogoNavigasiMenuAtas{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            margin-top: 6px;
+            font-size: 8px;
+            margin-right: 15px;
+            margin-left: 0px;
+        }
+        .LogoNavigasiMenuAtas a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+        .LogoNavigasiMenuAtas h1{
+            margin-left: 10px;
+        }
+        
+        /*      Search Bar Atas     */
+        .SearchNavigasiAtas{
+            display: none;
+        }
+        .NavNotifPesan{
+            display: none;
+        }
+
+        }
+
+        /*      MobileNavigasi      */
+        *{
+        .MobileNavigasiBox{
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 4rem;
+            position: fixed;
+            bottom: 0;
+        }
+        .MobileNavigasiBoxIcon{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        }
+
+        /*       Edit Profile Layar      */
+        *{
+        .Edit-Profile{
+            width: 100%;
+        }
+        .Edit-Profile-Frame{
+            width: 100%;
+            height: auto;
+            background: white;
+            margin-top: 0;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            text-align: center;
+            display: flex;
+        }
+        .Edit-Profile-Framebox{
+            width: 90%;
+            margin-top: 1rem;
+            height: auto;
+            background: none;
+            padding: 0px;
+            border-radius: 10px;
+        }
+        .Profile-Image{
+            width: 100%;
+            height: 5.5rem;
+            
+        }
+        .Profile-Image img{
+            width: 25%;
+            height: 100%;
+            border-radius: 60px;
+            object-fit: cover;
+            object-position: center center;
+        }
+        .Ubah-Profile{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .Ubah-Profile button{
+            width: 35%;
+            height: 2rem;
+            font-weight: 700;
+            border-radius: 5px;
+            background: none;
+            
+        }
+        .Ubah-Profile form{
+            width: 35%;
+            height: 2rem;
+            font-weight: 700;
+            border-radius: 5px;
+            background: none;
+            margin: 0;
+        }
+        .Ubah-Profile form button{
+            width: 100%;
+            height: 100%;
+            font-weight: 700;
+            border-radius: 5px;
+            background: none;
+            
+        }
+        .Ubah-Profile button:hover{
+            background: #00AA01;
+            border: none;
+            color: white;
+        }
+        .Edit-Profile-User{
+            width: 100%;
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+        }
+        
+        /* .Edit-Profile-User a{
+            width: 100%;
+            font-size: 14px;
+            display: flex;
+            text-decoration: none;
+            color: black;
+            justify-content: space-between;
+        } */
+        .User-Profile{
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .User-Profile-Link{
+            width: 100%;
+            font-weight: 700;
+            text-align: right;
+        }
+        .User-Profile-Link a{
+            text-align: right;
+            align-items: end;
+            justify-content: end;
+        }
+        }
+
+        /*      Edit Profile Username         */
+        *{
+        .Bar-Edit-Username{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Bar-Edit-Username-Frame{
+            width: 100%;
+            height: 100%;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .Bar-Edit-Username-FrameBox{
+            display: block;
+            padding: 20px;
+        }
+        .Nav-Bar-Edit-Username{
+            display: flex;
+            justify-content: space-between;
+        }
+        .Nav-Bar-Edit-Username-Action{
+            display: flex;
+            align-items: center;
+        }
+        .Nav-Bar-Edit-Username-Action svg{
+            display: none;
+        }
+        .Nav-Bar-Edit-Username-Action:hover{
+            color: #00AA01;
+        }
+        .Nav-Bar-Edit-Username-Action h3{
+            margin-left: 0px;
+        }
+        .Nav-Bar-Edit-Save-Action input{
+            font-size: 15px;
+        }
+        .Save-Button{
+            color: #00AA01;
+            width: 100%;
+            background: none;
+            border: none;
+        }
+        .Save-Button:hover{
+            color: #a9e1a9;
+        }
+    
+        /*      User-Field        */
+        ul{
+            padding: 0px;
+        }
+        label{
+            display:block;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        fieldset{
+            border:none;
+        }
+        .alert-gagal{
+            background:red;
+            text-align:center;
+            color:white;
+            font-weight:600;
+            height:40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+        .User-Field {
+            background: white;
+            width: 100%;
+            height: auto;
+            margin-top: 40px;
+            border-radius:20px;
+            text-align: left;
+            padding: 0px;
+        }
+        .User-Field h1{
+            padding: 0px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .User-Field li{
+            text-decoration: none;
+            list-style: none;
+        }
+        .kolum{
+            width: 100%;
+            height: 50px;
+            font-size: 15px;
+            font-weight: 500;
+            border:  1px solid black;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        }
+
+        /*      Edit Profile Bio         */
+        *{
+            .Bar-Edit-Bio{
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                right: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .Bar-Edit-Bio-Frame{
+                width: 100%;
+                height: 100%;
+                background: white;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 20px;
+                font-size: 12px;
+            }
+            .Bar-Edit-Bio-FrameBox{
+                display: block;
+                padding: 20px;
+            }
+            .Nav-Bar-Edit-Bio{
+                display: flex;
+                justify-content: space-between;
+            }
+            .Nav-Bar-Edit-Bio-Action{
+                display: flex;
+                align-items: center;
+            }
+            .Nav-Bar-Edit-Bio-Action svg{
+                display: none;
+            }
+            .Nav-Bar-Edit-Bio-Action:hover{
+                color: #00AA01;
+            }
+            .Nav-Bar-Edit-Bio-Action h3{
+                margin-left: 0px;
+            }
+            .Nav-Bar-Edit-Save-Action input{
+                font-size: 15px;
+            }
+            .Save-Button{
+                color: #00AA01;
+                width: 100%;
+                background: none;
+                border: none;
+            }
+            .Save-Button:hover{
+                color: #a9e1a9;
+            }
+            .Bio-User{
+                width: 100%;
+                justify-content: center;
+                display: flex;
+                margin-bottom: 10px;
+            }
+            .Bio-User p{
+                width: 100%;
+                font-size: 12px;
+            }
+        
+            /*      User-Field        */
+            ul{
+                padding: 0px;
+            }
+            label{
+                display:block;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+            fieldset{
+                border:none;
+            }
+            .alert-gagal{
+                background:red;
+                text-align:center;
+                color:white;
+                font-weight:600;
+                height:40px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 0px 0px 10px 10px;
+            }
+            .User-Field-Bio {
+                background: white;
+                width: 100%;
+                height: auto;
+                margin-top: 40px;
+                border-radius:20px;
+                text-align: left;
+                padding: 0px;
+            }
+            .User-Field-Bio h1{
+                padding: 0px;
+                margin-top: 10px;
+                text-align: center;
+                font-size: 30px;
+            }
+            .User-Field-Bio li{
+                text-decoration: none;
+                list-style: none;
+            }
+            .kolum-Bio{
+                width: 100%;
+                height: 100px;
+                font-size: 15px;
+                font-weight: 500;
+                border:  1px solid black;
+                border-radius: 5px;
+                padding: 5px;
+            }
+    
+            }
+
+        /*      Edit Profile Profileimage         */
+        *{
+            .Bar-Edit-ProfileImage{
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                right: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .Bar-Edit-ProfileImage-Frame{
+                width: 100%;
+                height: 100%;
+                background: white;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 20px;
+                font-size: 12px;
+            }
+            .Bar-Edit-ProfileImage-FrameBox{
+                display: block;
+                padding: 20px;
+            }
+            .Nav-Bar-Edit-ProfileImage{
+                display: flex;
+                justify-content: space-between;
+            }
+            .Nav-Bar-Edit-ProfileImage-Action{
+                display: flex;
+                align-items: center;
+            }
+            .Nav-Bar-Edit-ProfileImage-Action svg{
+                display: none;
+            }
+            .Nav-Bar-Edit-ProfileImage-Action:hover{
+                color: #00AA01;
+            }
+            .Nav-Bar-Edit-ProfileImage-Action h3{
+                margin-left: 0px;
+            }
+            .Nav-Bar-Edit-Save-Action input{
+                font-size: 15px;
+            }
+            .Save-Button{
+                color: #00AA01;
+                width: 100%;
+                background: none;
+                border: none;
+            }
+            .Save-Button:hover{
+                color: #a9e1a9;
+            }
+            .ProfileImage-User{
+                width: 100%;
+                justify-content: center;
+                display: flex;
+                margin-bottom: 10px;
+            }
+            .ProfileImage-User p{
+                width: 100%;
+                font-size: 12px;
+            }
+        
+            }
+            
+        
+        
+
+        }
+
+}
+
+}

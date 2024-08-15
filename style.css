@@ -1,0 +1,639 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #f3f3f3;
+  font-family: Inter;
+}
+.badan {
+  padding: 50px;
+}
+.MobileNavigasi {
+  display: none;
+}
+/*      Navigasi Atas       */
+* {
+  .NavigasiMenuHeadAtas {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+  }
+  .NavigasiMenu {
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    position: relative;
+    display: flex;
+  }
+  /*      Logo        */
+  .LogoNavigasiMenuAtas {
+    width: 20%;
+    font-weight: 400;
+    margin-top: 6px;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  /*      Search Bar Atas     */
+  .SearchNavigasiAtas {
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 15%;
+  }
+  .element-search {
+    width: 100%;
+    color: white;
+    border: none;
+  }
+  .search {
+    border: none;
+    background-color: #e9e9e9;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+  }
+  /*      Nav Notif N Pesan       */
+  .NavNotifPesan {
+    width: 130px;
+    position: relative;
+    display: flex;
+    margin-left: 20%;
+  }
+  .NavNotifPesan img {
+    width: 30px;
+    margin: 10px;
+    padding: 10%;
+  }
+  /*      Profile     */
+  .Profile {
+    width: 5%;
+    margin-left: 8px;
+  }
+  .Profile img {
+    border-radius: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    object-position: center center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/*      Layanan Populer     */
+* {
+  .LayananPopulerText {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  .TextLayananPopuler h1 {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .LayananPopulerText a {
+    text-decoration: none;
+    color: black;
+  }
+  .LayananPopulerText li {
+    list-style: none;
+  }
+  .LayananPopulerProduk {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .LayananProduk {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  .LayananProduk:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.154); /* Add shadow */
+  }
+  .LayananProduk a {
+    text-decoration: none;
+    color: black;
+  }
+  .LayananProdukImage {
+    width: 100%;
+    height: 60%;
+  }
+  .LayananProdukImage img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .LayananProdukText {
+    width: 100%;
+    margin-top: 22%;
+    font-size: 10px;
+  }
+  .LayananProdukText h1 {
+    text-decoration: none;
+    margin-top: 22%;
+    margin-left: 4%;
+    font-size: 18px;
+  }
+}
+
+/*      AdsDisplay      */
+* {
+  .AdsDisplay {
+    width: 100%;
+    color: white;
+    position: relative;
+    display: flex;
+  }
+  .AdsDisplayBox {
+    width: 100%;
+    background-color: #00aa01;
+    margin: 40px 80px 0 80px;
+    padding: 40px;
+    display: flex;
+    border-radius: 30px;
+  }
+  .AdsDisplayText {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  .AdsDisplayText h1 {
+    margin-bottom: 10px;
+  }
+  .AdsDisplayImage {
+    width: 50%;
+  }
+  .AdsDisplayImage img {
+    width: 100%;
+  }
+}
+
+/*      Produk Seller       */
+* {
+  .ProdukDisplay {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .ProdukFrame {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  .ProdukRekomendasi {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ProdukRekomendasi a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  .ProdukRekomendasiTextAll {
+    font-weight: 400;
+  }
+  .ProdukSeller {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .ProdukSellerBox {
+    width: 23.8%;
+    height: 30rem;
+    margin: 20px 10px 0 10px;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    border-radius: 20px;
+  }
+  .ProdukSellerBoxImage {
+    width: 100%;
+    height: 50%;
+  }
+  .ProdukSellerBoxImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .ProdukSellerBoxInfo {
+    display: block;
+    padding: 10px 30px 0 30px;
+    justify-content: space-between;
+  }
+  .ProdukSellerBoxRatePesan {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ProdukSellerBoxRate {
+    display: flex;
+  }
+  .ProdukSellerBoxRate img {
+    width: 25px;
+  }
+  .ProdukSellerBoxRateText {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .ProdukSellerBoxRate h1 {
+    margin-left: 20px;
+  }
+  .ProdukSellerBoxPesan {
+    display: flex;
+  }
+  .ProdukSellerBoxPesan img {
+    width: 30px;
+    padding: 5px;
+  }
+  .ProdukSellerBoxJudulProduk a {
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .ProdukSellerBoxJudulProduk h1 {
+    font-weight: 400;
+  }
+  .ProdukSellerBoxHarga {
+    text-align: right;
+    margin-top: 20px;
+  }
+}
+.bottom-corner {
+  display: none;
+}
+
+/*      Laptop Size     */
+* {
+  @media (max-width: 1366px) {
+    .AdsDisplayText {
+      font-size: 20px;
+    }
+    .Profile {
+      width: 5%;
+      margin-left: 8px;
+    }
+    .Profile img {
+      border-radius: 50px;
+      width: 3rem;
+      height: 3rem;
+      object-fit: cover;
+      object-position: center center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /*      ProdukSeller        */
+    * {
+      .ProdukSellerBox {
+        width: 23%;
+        height: 25rem;
+        margin: 20px 10px 0 10px;
+        background-color: white;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+        border-radius: 20px;
+      }
+      .ProdukSellerBoxRate img {
+        width: 20px;
+      }
+      .ProdukSellerBoxRateText {
+        display: flex;
+        margin-left: 8px;
+        align-items: center;
+        font-size: 12px;
+      }
+      .ProdukSellerBoxRate h1 {
+        margin-left: 20px;
+      }
+      .ProdukSellerBoxPesan {
+        display: flex;
+      }
+      .ProdukSellerBoxPesan img {
+        width: 24px;
+        padding: 5px;
+      }
+      .ProdukSellerBoxJudulProduk a {
+        font-size: 10px;
+        list-style: none;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+      }
+      .ProdukSellerBoxJudulProduk h1 {
+        font-weight: 500;
+      }
+      .ProdukSellerBoxHarga {
+        width: 100%;
+        text-align: right;
+        font-size: 14px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+/*      Mobile Size     */
+* {
+  @media (max-width: 768px) {
+    .Profile {
+      display: none;
+    }
+    .badan {
+      padding: 24px;
+    }
+    .MobileNavigasi {
+      display: flex;
+    }
+    /*      Navigasi Atas       */
+    * {
+      .NavigasiMenuHeadAtas {
+        background-color: white;
+        width: 100%;
+        height: 70px;
+      }
+      .NavigasiMenu {
+        padding-left: 26px;
+        padding-right: 30px;
+        padding-top: 20px;
+        position: relative;
+        display: flex;
+      }
+      /*      Logo        */
+      .LogoNavigasiMenuAtas {
+        width: 10%;
+        font-weight: 400;
+        margin-top: 6px;
+        font-size: 8px;
+        margin-right: 15px;
+        margin-left: 0px;
+      }
+      /*      Search Bar Atas     */
+      .SearchNavigasiAtas {
+        width: 62%;
+        margin-right: 20px;
+        margin-left: 0px;
+      }
+      .element-search {
+        width: 100%;
+        color: white;
+        border: none;
+      }
+      .search {
+        border: none;
+        background-color: #e9e9e9;
+        color: black;
+        border-radius: 10px;
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+      }
+      /*      Nav Notif N Pesan       */
+      .NavNotifPesan {
+        width: 10%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+      }
+      .NavNotifPesan img {
+        width: 22px;
+        margin: 0px;
+        padding: 6px;
+      }
+    }
+    /*      Body Pelayanan Populer      */
+    * {
+      .LayananPopulerText {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+      }
+      .TextLayananPopuler h1 {
+        font-size: 15px;
+      }
+      .LayananPopulerText a {
+        text-decoration: none;
+        color: black;
+      }
+      .LayananPopulerText li {
+        list-style: none;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+      .LayananPopulerProduk {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 20px; /* Add padding to ensure space for scrollbar */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE 10+ */
+        position: relative;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevent line breaks */
+      }
+      .LayananProduk {
+        flex: 0 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        margin: 1%;
+        min-width: 155px; /* Set a minimum width for each item */
+        height: 170px;
+        width: calc(100% / 3); /* Display 3 products at a time */
+        background-color: white;
+        border-radius: 5px;
+        margin: 1%;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); /* Add shadow */
+      }
+     
+      .LayananProduk:hover {
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+      }
+      .LayananProdukImage {
+        width: 100%;
+        height: 70%;
+        overflow: hidden; /* Hide overflowing content */
+      }
+      .LayananProdukImage img {
+        border-radius: 5px 5px 0px 0px;
+        width: 100%;
+      }
+      .LayananProdukText {
+        width: 100%;
+        margin-top: 4%;
+        margin-left: 0px;
+        padding: 0px;
+      }
+      .LayananProdukText h1 {
+        margin-top: 0%;
+        padding: 10px;
+        font-size: 12px;
+        margin-left: 0;
+      }
+    }
+    /*      AdsDisplay      */
+    * {
+      .AdsDisplay {
+        width: 100%;
+        position: relative;
+        display: flex;
+        font-size: 10px;
+      }
+      .AdsDisplayBox {
+        display: flex;
+        position: relative;
+        align-items: end;
+        width: 100%;
+        height: 140px;
+        margin: 10px 0px 0 0px;
+        padding: 20px 20px 0 20px;
+        border-radius: 20px;
+      }
+      .AdsDisplayText {
+        width: 50%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-size: 10px;
+      }
+      .AdsDisplayText h1 {
+        width: 200px;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .AdsDisplayImage {
+        width: 50%;
+      }
+      .AdsDisplayImage img {
+        width: 108%;
+      }
+    }
+    /*      ProdukSeller        */
+    * {
+      .ProdukRekomendasi {
+        display: flex;
+        justify-content: space-between;
+      }
+      .ProdukRekomendasiText h1 {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .ProdukRekomendasi a {
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+      }
+      .ProdukRekomendasiTextAll {
+        font-weight: 400;
+      }
+      .ProdukSeller {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .ProdukSellerBox {
+        width: 47%;
+        height: 15rem;
+        margin: 20px 4px 0 4px;
+        background-color: white;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+        border-radius: 10px;
+      }
+      .ProdukSellerBoxImage {
+        width: 100%;
+        height: 110px;
+      }
+      .ProdukSellerBoxImage img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0px;
+      }
+      .ProdukSellerBoxInfo {
+        display: block;
+        padding: 10px 10px 0 10px;
+        justify-content: space-between;
+      }
+      .ProdukSellerBoxRatePesan {
+        display: flex;
+        justify-content: space-between;
+      }
+      .ProdukSellerBoxRate {
+        display: flex;
+      }
+      .ProdukSellerBoxRate img {
+        width: 15px;
+      }
+      .ProdukSellerBoxRateText {
+        display: flex;
+        margin-left: 5px;
+        align-items: center;
+        font-size: 10px;
+      }
+      .ProdukSellerBoxRate h1 {
+        margin-left: 20px;
+      }
+      .ProdukSellerBoxPesan {
+        display: flex;
+      }
+      .ProdukSellerBoxPesan img {
+        align-items: end;
+        width: 18px;
+        padding: 2px;
+      }
+      .ProdukSellerBoxJudulProduk a {
+        font-size: 6px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+      }
+      .ProdukSellerBoxJudulProduk h1 {
+        font-weight: 400;
+      }
+      .ProdukSellerBoxHarga {
+        text-align: right;
+        margin-top: 10px;
+        font-size: 9px;
+      }
+      .ProdukSeller .ProdukSellerBox:nth-child(n + 7) {
+        display: none;
+      }
+      .bottom-corner {
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+      }
+    }
+    /*      MobileNavigasi      */
+    * {
+      .MobileNavigasiBox {
+        background-color: white;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 4rem;
+        position: fixed;
+        bottom: 0;
+      }
+      .MobileNavigasiBoxIcon {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding: 20px;
+      }
+    }
+  }
+}

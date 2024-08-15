@@ -1,0 +1,998 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: white;
+  font-family: Inter;
+}
+
+/*              Desktop Device              */
+* {
+  /*      Navigasi Atas       */
+  * {
+    .NavigasiMenuHeadAtas {
+      background-color: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      z-index: 99999999;
+      width: 100%;
+      height: 100px;
+    }
+    .NavigasiMenu {
+      align-items: center;
+      padding-left: 35px;
+      padding-top: 20px;
+      padding-right: 35px;
+      position: relative;
+      display: flex;
+    }
+    /*      Logo        */
+    .LogoNavigasiMenuAtas {
+      width: 20%;
+      font-weight: 400;
+      margin-top: 6px;
+      font-size: 12px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    /*      Search Bar Atas     */
+    .SearchNavigasiAtas {
+      width: 40%;
+      margin-right: 20px;
+      margin-left: 15%;
+    }
+    .element-search {
+      width: 100%;
+      color: white;
+      border: none;
+    }
+    .search {
+      border: none;
+      background-color: #e9e9e9;
+      color: black;
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      padding-left: 15px;
+    }
+    /*      Nav Notif N Pesan       */
+    .NavNotifPesan {
+      width: 130px;
+      position: relative;
+      display: flex;
+      margin-left: 20%;
+    }
+    .NavNotifPesan img {
+      width: 30px;
+      margin: 10px;
+      padding: 10%;
+    }
+    /*      Profile     */
+    .Profile {
+      width: 5%;
+      margin-left: 8px;
+    }
+    .Profile img {
+      border-radius: 50px;
+      width: 3.5rem;
+      height: 3.5rem;
+      object-fit: cover;
+      object-position: center center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    .Logout {
+      display: none;
+    }
+    .m-navigasi-hide {
+      display: none;
+    }
+  }
+
+  .Desktop {
+    display: block;
+  }
+  .Mobile {
+    display: none;
+  }
+  .Badan-Desktop {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .Informasi-Akun {
+    width: 100%;
+  }
+  .post-feed-mobile {
+    display: none;
+  }
+
+  /*      Navigasi Samping        */
+
+  .Des-Navigasi-Samping {
+    width: 20%;
+    height: auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    position: relative;
+  }
+  .Nav-Navigasi-Samping {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+  }
+  .Nav-Navigasi-Samping a {
+    text-decoration: none;
+    color: black;
+  }
+  .Nav-Navigasi-Samping a:hover {
+    color: #00aa01;
+  }
+  .Navigasi-Samping-Pilihan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1rem 0rem 1rem 3rem;
+    align-items: center;
+  }
+  .Navigasi-Samping-Pilihan-icon {
+    width: 10%;
+  }
+  .Navigasi-Samping-Pilihan-Text h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Navigasi-Samping-Pilihan-Button {
+    width: 100%;
+    height: auto;
+    margin: 0.3rem 0rem 2rem 0rem;
+  }
+  .Navigasi-Samping-Pilihan-Logout {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+  .Navigasi-Samping-Pilihan-Logout button {
+    width: 75%;
+    height: 100%;
+    font-weight: 700;
+    border-radius: 8px;
+    background: none;
+  }
+  .Navigasi-Samping-Pilihan-Logout button:hover {
+    background: #00aa01;
+    color: white;
+    border: none;
+  }
+
+  .produk-gig {
+    width: 80%;
+  }
+  .produk-gig-frame {
+    width: 100%;
+    display: flex;
+  }
+  .produk-gig-main {
+    width: 60%;
+    padding: 3rem 5rem 0rem 5rem;
+  }
+  .produk-gig-main-info {
+    width: 100%;
+    display: block;
+  }
+  .gig-user {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .gig-user-profile {
+    width: 12%;
+  }
+  .gig-user-profile img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  .gig-user-username {
+    width: 88%;
+    margin-left: 0rem;
+  }
+  .gig-user-username a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .produk-gig-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produk-gig-main-picture {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .produk-gig-main-picture img {
+    width: 80%;
+    height: 44rem;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .produk-gig-thumbnail {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .produk-gig-thumbnail img {
+    width: 40%;
+    height: 5rem;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .produk-gig-thumbnail .thumbnail {
+    width: 100px; /* Atur ukuran thumbnail sesuai kebutuhan */
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .produk-gig-main-info-deskripsi {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .produk-gig-buy {
+    width: 40%;
+    height: 100rem;
+  }
+  .sticky-produk-gig-buy {
+    display: block;
+    width: 25%;
+    position: fixed;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px 20px 20px 20px;
+    height: 40rem;
+    margin-top: 3rem;
+  }
+  .sticky-produk-gig-buy-kerangka {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .produk-gig-buy-class {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-gig-buy-class-user {
+    width: 30%;
+    text-align: center;
+  }
+
+  .sticky-produk-gig-buy-info {
+    width: 100%;
+  }
+  .sticky-produk-gig-buy-info-kerangka {
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .sticky-produk-gig-buy-info-price {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+  }
+  .sticky-produk-gig-buy-info-note {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sticky-produk-gig-buy-info-delivery {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    font-weight: 800;
+  }
+  .sticky-produk-gig-buy-info-delivery span {
+    padding-right: 20px;
+  }
+  .sticky-produk-gig-buy-info-itemlist {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+  }
+  .gig-produk-item {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .sticky-produk-gig-buy-info-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .sticky-produk-gig-buy-info-button button {
+    width: 25rem;
+    height: 3rem;
+    font-size: 16px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  .sticky-produk-gig-buy-info-button button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .space {
+    width: 100%;
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .Informasi-Akun {
+    width: 70%;
+    background: white;
+    padding: 40px 0px 0px 60px;
+  }
+  .Profile {
+    width: 5%;
+    margin-left: 8px;
+  }
+  .Profile img {
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    object-position: center center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .Des-Navigasi-Samping {
+    width: 30%;
+    height: 1000px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    position: relative;
+  }
+  .Nav-Navigasi-Samping {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+  }
+  .Nav-Navigasi-Samping a {
+    text-decoration: none;
+    color: black;
+  }
+  .Nav-Navigasi-Samping a:hover {
+    color: #00aa01;
+  }
+  .Navigasi-Samping-Pilihan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1rem 0rem 1rem 3rem;
+    align-items: center;
+  }
+  .Navigasi-Samping-Pilihan-icon {
+    width: 10%;
+  }
+  .Navigasi-Samping-Pilihan-Text h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Navigasi-Samping-Pilihan-Button {
+    width: 100%;
+    height: auto;
+    margin: 0.3rem 0rem 2rem 0rem;
+  }
+  .Navigasi-Samping-Pilihan-Logout {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+  .Navigasi-Samping-Pilihan-Logout button {
+    width: 75%;
+    height: 100%;
+    font-weight: 700;
+    border-radius: 8px;
+    background: none;
+  }
+  .Navigasi-Samping-Pilihan-Logout button:hover {
+    background: #00aa01;
+    color: white;
+    border: none;
+  }
+  .ProfilePic-User {
+    width: 8rem;
+    height: 5rem;
+    margin-right: 2rem;
+    border-radius: 100px;
+  }
+  .ProfilePic-User img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center center;
+    box-shadow: 0px 0px 6px rgba(92, 92, 92, 0.1);
+  }
+
+  /*         Produk           */
+  .produk-gig {
+    width: 80%;
+  }
+  .produk-gig-frame {
+    width: 100%;
+    display: flex;
+  }
+  .produk-gig-main {
+    width: 60%;
+    padding: 3rem 3rem 0rem 3rem;
+  }
+  .produk-gig-main-info {
+    width: 100%;
+    display: block;
+    font-size: 15px;
+  }
+  .gig-user {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .gig-user-profile {
+    width: 15%;
+  }
+  .gig-user-profile img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .gig-user-username {
+    width: 85%;
+    margin-left: 0rem;
+  }
+  .gig-user-username a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .produk-gig-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produk-gig-main-picture {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .produk-gig-main-picture img {
+    width: 100%;
+    height: 32rem;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .produk-gig-thumbnail {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  .produk-gig-thumbnail img {
+    width: 40%;
+    height: 5rem;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .produk-gig-thumbnail .thumbnail {
+    width: 100px; /* Atur ukuran thumbnail sesuai kebutuhan */
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .produk-gig-main-info-deskripsi {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .produk-gig-buy {
+    width: 40%;
+    height: 100rem;
+  }
+  .sticky-produk-gig-buy {
+    display: block;
+    width: 25%;
+    position: fixed;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px 20px 20px 20px;
+    height: 35rem;
+    margin-top: 3rem;
+  }
+  .sticky-produk-gig-buy-kerangka {
+    width: 100%;
+    height: 5rem;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+  .produk-gig-buy-class {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .product-gig-buy-class-user {
+    width: 35%;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .sticky-produk-gig-buy-info {
+    width: 100%;
+  }
+  .sticky-produk-gig-buy-info-kerangka {
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .sticky-produk-gig-buy-info-price {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+  }
+  .sticky-produk-gig-buy-info-note {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sticky-produk-gig-buy-info-delivery {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    font-weight: 800;
+  }
+  .sticky-produk-gig-buy-info-delivery span {
+    padding-right: 20px;
+  }
+  .sticky-produk-gig-buy-info-itemlist {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+  }
+  .gig-produk-item {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .sticky-produk-gig-buy-info-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .sticky-produk-gig-buy-info-button button {
+    width: 25rem;
+    height: 3rem;
+    font-size: 16px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+/*      Mobile Size     */
+* {
+  @media (max-width: 768px) {
+    .Profile {
+      display: none;
+    }
+    .Mobile {
+      display: block;
+    }
+    body {
+      background: white;
+    }
+    .Des-Navigasi-Samping {
+      display: none;
+    }
+
+    .MobileNavigasi {
+      display: flex;
+    }
+    .Informasi-Akun-Frame {
+      padding: 0;
+    }
+    /*      Navigasi Atas       */
+    * {
+      .NavigasiMenuHeadAtas {
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        z-index: 0;
+        width: 100%;
+        height: 70px;
+      }
+      .NavigasiMenu {
+        padding-left: 26px;
+        padding-right: 30px;
+        padding-top: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      /*      Logo        */
+      .LogoNavigasiMenuAtas {
+        width: 10%;
+        font-weight: 400;
+        margin-top: 6px;
+        font-size: 8px;
+        margin-right: 15px;
+        margin-left: 0px;
+      }
+      /*      Search Bar Atas     */
+      .SearchNavigasiAtas {
+        display: none;
+      }
+      .NavNotifPesan {
+        display: none;
+      }
+      .Logout {
+        display: flex;
+        position: relative;
+        color: black;
+        width: 8%;
+      }
+      .Logout img {
+        width: 100%;
+        height: 1.6rem;
+      }
+
+      .m-navigasi-hide {
+        background: white;
+        width: 100%;
+        display: block;
+        top: 0;
+        position: absolute;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        z-index: 99999999999;
+      }
+      .m-navigasi-hide-box {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .m-navigasi-hide-box-setting {
+        padding: 20px;
+      }
+      .m-navigasi-hide-box-nav {
+        display: flex;
+        align-items: center;
+      }
+      .m-navigasi-hide-box-nav-exit {
+        margin-right: 20px;
+        width: 8%;
+      }
+      .m-navigasi-hide-box-nav h3 {
+        font-weight: 500;
+      }
+      .m-navigasi-hide-box-pilihan {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+        justify-content: center;
+        position: relative;
+      }
+      .m-navigasi-hide-box-pilihan a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+      }
+      .m-navigasi-hide-box-pilihan-setting {
+        width: 100%;
+        height: 70px;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .m-navigasi-hide-box-pilihan-setting h3 {
+        font-weight: 500;
+        font-size: 16px;
+      }
+      .m-navigasi-hide-box-pilihan-setting-icon {
+        width: 8%;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .m-navigasi-hide-box-pilihan-setting-icon svg path {
+        width: 100%;
+        stroke: #00aa01;
+        fill: #00aa01;
+      }
+      .m-navigasi-hide-box-pilihan-setting-icon .icon-aktifitas path {
+        fill: none;
+        stroke: #00aa01;
+        stroke: 30;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text {
+        width: 80%;
+        display: flex;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-info {
+        display: flex;
+        position: relative;
+        width: 100%;
+      }
+
+      .m-navigasi-hide-box-pilihan-setting-icon-right {
+        width: 8%;
+      }
+      .m-navigasi-hide-box-pilihan-setting-logout {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-logout {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        position: relative;
+        text-align: center;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-logout button {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 50px;
+        background: none;
+        outline: 1px solid #00aa01;
+        border-radius: 10px;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-logout button:hover {
+        outline: none;
+        background: #00aa01;
+        border: none;
+        color: white;
+      }
+    }
+    /*      MobileNavigasi      */
+    * {
+      .MobileNavigasiBox {
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 4rem;
+        position: fixed;
+        bottom: 0;
+      }
+      .MobileNavigasiBoxIcon {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding: 20px;
+      }
+    }
+
+    .produk-gig {
+      width: 100%;
+      display: block;
+    }
+    .produk-gig-frame {
+      width: 100%;
+      display: block;
+    }
+    .produk-gig-main {
+      width: 100%;
+      padding: 3rem 1.5rem 0rem 1.5rem;
+      box-sizing: border-box;
+    }
+    .produk-gig-main-info {
+      width: 100%;
+      display: block;
+      font-size: 12px;
+    }
+    .gig-user {
+      width: 100%;
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .gig-user-profile {
+      width: 18%;
+    }
+    .gig-user-profile img {
+      width: 3rem;
+      height: 3rem;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 100px;
+    }
+    .gig-user-username {
+      width: 83%;
+      margin-left: 0rem;
+    }
+    .gig-user-username a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .produk-gig-container {
+      width: 100%;
+      display: block;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .produk-gig-main-picture {
+      width: 100%;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .produk-gig-main-picture img {
+      width: 100%;
+      height: 22rem;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    .produk-gig-thumbnail {
+      display: flex;
+      justify-content: left;
+      margin-top: 20px;
+    }
+    .produk-gig-thumbnail img {
+      width: 40%;
+      height: 5rem;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    .produk-gig-thumbnail .thumbnail {
+      width: 100px; /* Atur ukuran thumbnail sesuai kebutuhan */
+      margin: 0 10px;
+      cursor: pointer;
+    }
+
+    .produk-gig-main-info-deskripsi {
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+    .produk-gig-buy {
+      width: 100%;
+      height: auto;
+    }
+    .sticky-produk-gig-buy {
+      display: block;
+      width: 100%;
+      position: relative;
+      background: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 20px 20px 0px 0px;
+      height: 40rem;
+      margin-top: 3rem;
+    }
+    .sticky-produk-gig-buy-kerangka {
+      width: 100%;
+      height: 5rem;
+      border: 1px solid black;
+      border-radius: 20px 20px 0px 0px;
+      display: flex;
+      align-items: center;
+    }
+    .produk-gig-buy-class {
+      width: 100%;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .product-gig-buy-class-user {
+      width: 30%;
+      text-align: center;
+    }
+
+    .sticky-produk-gig-buy-info {
+      width: 100%;
+    }
+    .sticky-produk-gig-buy-info-kerangka {
+      width: 100%;
+      padding: 0px 30px 0px 30px;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .sticky-produk-gig-buy-info-price {
+      width: 100%;
+      text-align: center;
+      justify-content: space-between;
+      display: flex;
+      margin-top: 20px;
+    }
+    .sticky-produk-gig-buy-info-note {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .sticky-produk-gig-buy-info-delivery {
+      width: 100%;
+      display: flex;
+      margin-top: 10px;
+      font-weight: 800;
+    }
+    .sticky-produk-gig-buy-info-delivery span {
+      padding-right: 20px;
+    }
+    .sticky-produk-gig-buy-info-itemlist {
+      width: 100%;
+      margin-top: 20px;
+      display: block;
+    }
+    .gig-produk-item {
+      width: 100%;
+      margin-top: 5px;
+    }
+    .sticky-produk-gig-buy-info-button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .sticky-produk-gig-buy-info-button button {
+      width: 25rem;
+      height: 3rem;
+      font-size: 16px;
+      background: black;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+}

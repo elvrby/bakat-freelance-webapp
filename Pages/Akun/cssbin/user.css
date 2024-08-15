@@ -1,0 +1,1456 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: white;
+  font-family: Inter;
+}
+
+/*              Desktop Device              */
+* {
+  /*      Navigasi Atas       */
+  * {
+    .NavigasiMenuHeadAtas {
+      background-color: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      z-index: 99999999;
+      width: 100%;
+      height: 100px;
+    }
+    .NavigasiMenu {
+      align-items: center;
+      padding-left: 35px;
+      padding-top: 20px;
+      padding-right: 35px;
+      position: relative;
+      display: flex;
+    }
+    /*      Logo        */
+    .LogoNavigasiMenuAtas {
+      width: 20%;
+      font-weight: 400;
+      margin-top: 6px;
+      font-size: 12px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    /*      Search Bar Atas     */
+    .SearchNavigasiAtas {
+      width: 40%;
+      margin-right: 20px;
+      margin-left: 15%;
+    }
+    .element-search {
+      width: 100%;
+      color: white;
+      border: none;
+    }
+    .search {
+      border: none;
+      background-color: #e9e9e9;
+      color: black;
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      padding-left: 15px;
+    }
+    /*      Nav Notif N Pesan       */
+    .NavNotifPesan {
+      width: 130px;
+      position: relative;
+      display: flex;
+      margin-left: 20%;
+    }
+    .NavNotifPesan img {
+      width: 30px;
+      margin: 10px;
+      padding: 10%;
+    }
+    /*      Profile     */
+    .Profile {
+      width: 5%;
+      margin-left: 8px;
+    }
+    .Profile img {
+      border-radius: 50px;
+      width: 48px;
+    }
+    .Logout {
+      display: none;
+    }
+    .m-navigasi-hide {
+      display: none;
+    }
+  }
+
+  .Desktop {
+    display: block;
+  }
+  .Mobile {
+    display: none;
+  }
+  .Badan-Desktop {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .Informasi-Akun {
+    width: 100%;
+  }
+  .post-feed-mobile {
+    display: none;
+  }
+
+  /*      Navigasi Samping        */
+
+  .Des-Navigasi-Samping {
+    width: 20%;
+    height: 1000px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    position: relative;
+  }
+  .Nav-Navigasi-Samping {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+  }
+  .Nav-Navigasi-Samping a {
+    text-decoration: none;
+    color: black;
+  }
+  .Nav-Navigasi-Samping a:hover {
+    color: #00aa01;
+  }
+  .Navigasi-Samping-Pilihan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1rem 0rem 1rem 3rem;
+    align-items: center;
+  }
+  .Navigasi-Samping-Pilihan-icon {
+    width: 10%;
+  }
+  .Navigasi-Samping-Pilihan-Text h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Navigasi-Samping-Pilihan-Button {
+    width: 100%;
+    height: auto;
+    margin: 0.3rem 0rem 2rem 0rem;
+  }
+  .Navigasi-Samping-Pilihan-Logout {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+  .Navigasi-Samping-Pilihan-Logout button {
+    width: 75%;
+    height: 100%;
+    font-weight: 700;
+    border-radius: 8px;
+    background: none;
+  }
+  .Navigasi-Samping-Pilihan-Logout button:hover {
+    background: #00aa01;
+    color: white;
+    border: none;
+  }
+
+  /*      Informasi Akun      */
+  * {
+    .Informasi-Akun {
+      width: 80%;
+      background: white;
+    }
+    .Informasi-Akun-Frame {
+      padding: 40px 0px 0px 60px;
+    }
+    .Background-Profile {
+      width: 50rem;
+      height: 10rem;
+      display: block;
+    }
+    .Background-Profile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 10px 10px 0px 0px;
+    }
+    .Profile-menu {
+      width: 100%;
+    }
+    .isi-profile {
+      width: 100%;
+      display: block;
+    }
+    .Profile-Frame {
+      display: flex;
+      padding-top: 1rem;
+    }
+    .ProfilePic-User {
+      width: 7rem;
+      height: 7rem;
+      margin-right: 2rem;
+      border-radius: 100px;
+    }
+    .ProfilePic-User img {
+      width: 100%;
+      height: 100%;
+      border-radius: 100px;
+      object-fit: cover;
+      object-position: center center;
+      box-shadow: 0px 0px 6px rgba(92, 92, 92, 0.1);
+    }
+    .Username {
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .Informasi-UserProfile {
+      width: 80rem;
+      display: block;
+    }
+    .Informasi-UserProfile button {
+      background: rgb(233, 233, 233);
+      color: black;
+      width: 130px;
+      height: 40px;
+      border-radius: 10px;
+      font-weight: 700;
+      border: none;
+    }
+    .Informasi-UserProfile button:hover {
+      background: #00aa01;
+      color: white;
+    }
+    .Deskripsi-Profile {
+      width: 40%;
+      margin-top: 10px;
+      display: block;
+    }
+  }
+
+  /*      Display Postingan       */
+  * {
+    .Display-Postingan {
+      width: 100%;
+      display: flex;
+      margin-top: 20px;
+    }
+    .Display-Postingan-Box {
+      width: 50rem;
+      height: 1.5px;
+      background: black;
+    }
+    .Display-Postingan-Frame {
+      display: flex;
+      justify-content: space-between;
+    }
+    .Display-Postingan-Frame a {
+      text-decoration: none;
+      color: black;
+    }
+    .Postingan-Menu {
+      display: flex;
+      padding: 20px;
+    }
+    .Postingan-Menu:hover {
+      color: #00aa01;
+    }
+    .Postingan-Menu img {
+      margin-right: 10px;
+    }
+    .Postingan {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+    }
+    .Des-User-Post {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .Post-Konten-Postingan {
+      justify-content: space-between;
+      display: flex;
+      width: 250px;
+      height: 250px;
+      margin-bottom: 10px;
+      background: black;
+    }
+    .Post-Konten-Postingan img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .Des-User-Keranjang {
+      width: 100%;
+      height: auto;
+      display: block;
+      justify-content: space-between;
+    }
+    .Post-Konten-Keranjang {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      height: 150px;
+      background: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      border-radius: 20px;
+    }
+    .Konten-Keranjang {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Konten-Keranjang-Image {
+      width: 20%;
+      height: auto;
+    }
+    .Konten-Keranjang-Image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .Konten-Keranjang-Informasi {
+      width: 100%;
+      margin-left: 10px;
+      display: flex;
+    }
+    .Keranjang-Informasi-Judul {
+      width: 80%;
+    }
+    .Konten-Keranjang-Button {
+      width: 20%;
+      display: block;
+      text-align: center;
+      justify-content: space-between;
+      position: relative;
+    }
+    .Konten-Keranjang-Button button {
+      width: 6rem;
+      height: 1.4rem;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      position: relative;
+      border: none;
+    }
+    .Konten-Keranjang-Button button:hover {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .Keranjang-Button-Beli {
+      background: #00aa01;
+      color: white;
+      border: 0px;
+    }
+  }
+
+  /*      Produkmu        */
+  * {
+    .Des-User-Produkmu {
+      width: 100%;
+      height: auto;
+      display: block;
+      justify-content: space-between;
+    }
+    .Post-Konten-Produkmu {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      height: 150px;
+      background: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      border-radius: 20px;
+    }
+    .Konten-Produkmu {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Konten-Produkmu-Image {
+      width: 20%;
+      height: auto;
+    }
+    .Konten-Produkmu-Image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .Konten-Produkmu-Informasi {
+      width: 100%;
+      margin-left: 10px;
+      display: flex;
+    }
+    .Produkmu-Informasi-Judul {
+      width: 80%;
+      display: block;
+      font-size: 18px;
+    }
+    .Konten-Produkmu-Button {
+      width: 20%;
+      display: block;
+      text-align: center;
+      justify-content: space-between;
+      position: relative;
+    }
+    .Konten-Produkmu-Button button {
+      width: 6rem;
+      height: 1.4rem;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      position: relative;
+      border: none;
+    }
+    .Konten-Produkmu-Button button:hover {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .Produkmu-Button-Beli {
+      background: #00aa01;
+      color: white;
+      border: 0px;
+    }
+    .iklan-button {
+      position: relative;
+      display: inline-block;
+    }
+    .iklan-button button {
+      width: 2rem;
+      height: 2rem;
+      background: none;
+      border: 1px solid black;
+      border-radius: 5px;
+      align-items: end;
+    }
+    .iklan-button svg {
+      width: 1rem;
+      height: 1rem;
+      align-items: end;
+    }
+    .iklan-bar{
+      position: absolute;
+      width: 10rem;
+      height: 2rem;
+      background: black;
+      border-radius: 5px;
+    }
+    .iklan-bar-kerangka{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      height: 2rem;
+      font-size: 9px;
+      color: white;
+      
+    }
+  }
+
+  .Des-User-Reels {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Post-Konten-Reels {
+    justify-content: space-between;
+    display: flex;
+    width: 250px;
+    height: 350px;
+    background: #00aa01;
+  }
+  .Post-Konten-Reels img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .display-post-feed {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    z-index: 999999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .post-feed {
+    width: 100%;
+    background: black;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+  }
+  .post-feed-image {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center center;
+    display: flex;
+  }
+  .post-feed-image img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .post-feed-comment {
+    width: 50%;
+    padding: 20px;
+    color: white;
+  }
+  .post-feed-comment-akun {
+    display: flex;
+    align-items: center;
+  }
+  .post-feed-comment-akun-image {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  .post-feed-comment-akun-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .post-feed-comment-public {
+    margin-top: 40px;
+    display: block;
+  }
+  .post-feed-comment-public-all {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .post-feed-comment-public-KomentarInfo {
+    width: 80%;
+  }
+  .post-feed-comment-public-username {
+    font-weight: 600;
+  }
+  .post-feed-comment-public-komentar {
+    font-size: 15px;
+  }
+
+  /*      Reels       */
+  .reels-feed-mobile {
+    display: none;
+  }
+  .display-reels-feed {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    z-index: 999999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .reels-feed {
+    width: 100%;
+    background: black;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+  }
+  .reels-feed-image {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center center;
+    display: flex;
+  }
+  .reels-feed-image video {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .reels-feed-comment {
+    width: 50%;
+    padding: 20px;
+    color: white;
+  }
+  .reels-feed-comment-akun {
+    display: flex;
+    align-items: center;
+  }
+  .reels-feed-comment-akun-image {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  .reels-feed-comment-akun-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .reels-feed-comment-public {
+    margin-top: 40px;
+    display: block;
+  }
+  .reels-feed-comment-public-all {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .reels-feed-comment-public-KomentarInfo {
+    width: 80%;
+  }
+  .reels-feed-comment-public-username {
+    font-weight: 600;
+  }
+  .reels-feed-comment-public-komentar {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .Informasi-Akun {
+    width: 70%;
+    background: white;
+    padding: 40px 0px 0px 60px;
+  }
+  .Des-Navigasi-Samping {
+    width: 40%;
+    height: 1000px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    position: relative;
+  }
+  .Nav-Navigasi-Samping {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+  }
+  .Nav-Navigasi-Samping a {
+    text-decoration: none;
+    color: black;
+  }
+  .Nav-Navigasi-Samping a:hover {
+    color: #00aa01;
+  }
+  .Navigasi-Samping-Pilihan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 1rem 0rem 1rem 3rem;
+    align-items: center;
+  }
+  .Navigasi-Samping-Pilihan-icon {
+    width: 10%;
+  }
+  .Navigasi-Samping-Pilihan-Text h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Navigasi-Samping-Pilihan-Button {
+    width: 100%;
+    height: auto;
+    margin: 0.3rem 0rem 2rem 0rem;
+  }
+  .Navigasi-Samping-Pilihan-Logout {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+  .Navigasi-Samping-Pilihan-Logout button {
+    width: 75%;
+    height: 100%;
+    font-weight: 700;
+    border-radius: 8px;
+    background: none;
+  }
+  .Navigasi-Samping-Pilihan-Logout button:hover {
+    background: #00aa01;
+    color: white;
+    border: none;
+  }
+  .ProfilePic-User {
+    width: 8rem;
+    height: 5rem;
+    margin-right: 2rem;
+    border-radius: 100px;
+  }
+  .ProfilePic-User img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center center;
+    box-shadow: 0px 0px 6px rgba(92, 92, 92, 0.1);
+  }
+}
+
+/*      Mobile Size     */
+* {
+  @media (max-width: 768px) {
+    .Profile {
+      display: none;
+    }
+    .Mobile {
+      display: block;
+    }
+    body {
+      background: white;
+    }
+    .Des-Navigasi-Samping {
+      display: none;
+    }
+
+    .MobileNavigasi {
+      display: flex;
+    }
+    .Informasi-Akun-Frame {
+      padding: 0;
+    }
+    /*      Navigasi Atas       */
+    * {
+      .NavigasiMenuHeadAtas {
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        z-index: 0;
+        width: 100%;
+        height: 70px;
+      }
+      .NavigasiMenu {
+        padding-left: 26px;
+        padding-right: 30px;
+        padding-top: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      /*      Logo        */
+      .LogoNavigasiMenuAtas {
+        width: 10%;
+        font-weight: 400;
+        margin-top: 6px;
+        font-size: 8px;
+        margin-right: 15px;
+        margin-left: 0px;
+      }
+      /*      Search Bar Atas     */
+      .SearchNavigasiAtas {
+        display: none;
+      }
+      .NavNotifPesan {
+        display: none;
+      }
+      .Logout {
+        display: flex;
+        position: relative;
+        color: black;
+        width: 8%;
+      }
+      .Logout img {
+        width: 100%;
+        height: 1.6rem;
+      }
+
+      .m-navigasi-hide {
+        background: white;
+        width: 100%;
+        display: block;
+        top: 0;
+        position: absolute;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        z-index: 99999999999;
+      }
+      .m-navigasi-hide-box {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .m-navigasi-hide-box-setting {
+        padding: 20px;
+      }
+      .m-navigasi-hide-box-nav {
+        display: flex;
+        align-items: center;
+      }
+      .m-navigasi-hide-box-nav-exit {
+        margin-right: 20px;
+        width: 8%;
+      }
+      .m-navigasi-hide-box-nav h3 {
+        font-weight: 500;
+      }
+      .m-navigasi-hide-box-pilihan {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+        justify-content: center;
+        position: relative;
+      }
+      .m-navigasi-hide-box-pilihan a {
+        display: flex;
+        position: relative;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+      }
+      .m-navigasi-hide-box-pilihan-setting {
+        width: 100%;
+        height: 70px;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+      }
+
+      .m-navigasi-hide-box-pilihan-setting h3 {
+        font-weight: 500;
+        font-size: 16px;
+      }
+      .m-navigasi-hide-box-pilihan-setting-icon {
+        width: 8%;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .m-navigasi-hide-box-pilihan-setting-icon svg path {
+        width: 100%;
+        stroke: #00aa01;
+        fill: #00aa01;
+      }
+      .m-navigasi-hide-box-pilihan-setting-icon .icon-aktifitas path {
+        fill: none;
+        stroke: #00aa01;
+        stroke: 30;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text {
+        width: 80%;
+        display: flex;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-info {
+        display: flex;
+        position: relative;
+        width: 100%;
+      }
+
+      .m-navigasi-hide-box-pilihan-setting-icon-right {
+        width: 8%;
+      }
+      .m-navigasi-hide-box-pilihan-setting-logout {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-logout {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        position: relative;
+        text-align: center;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-logout button {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        height: 50px;
+        background: none;
+        outline: 1px solid #00aa01;
+        border-radius: 10px;
+      }
+      .m-navigasi-hide-box-pilihan-setting-text-logout button:hover {
+        outline: none;
+        background: #00aa01;
+        border: none;
+        color: white;
+      }
+    }
+    /*      MobileNavigasi      */
+    * {
+      .MobileNavigasiBox {
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 4rem;
+        position: fixed;
+        bottom: 0;
+      }
+      .MobileNavigasiBoxIcon {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding: 20px;
+      }
+    }
+
+    /*      Informasi Akun      */
+    * {
+      .Informasi-Akun {
+        width: 100%;
+        height: auto;
+        background: none;
+        margin-top: 0px;
+        padding: 0px;
+      }
+      .Profile-menu {
+        width: 100%;
+        padding: 0px;
+        font-size: 10px;
+      }
+      .Profile-Frame {
+        display: block;
+        padding-top: 5rem;
+        z-index: 9999999999;
+      }
+      .Background-Profile {
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 8rem;
+      }
+      .Background-Profile img {
+        border-radius: 0;
+      }
+
+      .User-Profile {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .isi-profile {
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      }
+      .ProfilePic-User {
+        width: 100%;
+        height: 5.5rem;
+        margin-right: 1rem;
+        border-radius: 50px;
+      }
+      .ProfilePic-User img {
+        width: 23%;
+        height: 100%;
+        border-radius: 100px;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .Username {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+      }
+      .Username svg {
+        width: 18px;
+        height: 18px;
+      }
+      .Informasi-UserProfile {
+        width: 100%;
+        display: block;
+      }
+      .Informasi-UserProfile button {
+        background: rgb(233, 233, 233);
+        color: black;
+        width: 105px;
+        height: 35px;
+        border-radius: 8px;
+        font-weight: 500;
+        margin: 1px;
+        border: none;
+      }
+      .Informasi-UserProfile button:hover {
+        background: #00aa01;
+        color: white;
+      }
+      .Deskripsi-Profile {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .Deskripsi-Profile p {
+        width: 80%;
+        font-size: 12px;
+      }
+    }
+
+    /*      Display Postingan       */
+    * {
+      .Display-Postingan {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+      }
+      .Display-Postingan-Box {
+        width: 100%;
+        height: 0.5px;
+        background: black;
+      }
+      .Display-Postingan-Frame {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        align-items: center;
+      }
+      .Postingan-Menu {
+        display: block;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .Postingan-Menu:hover {
+        color: #00aa01;
+      }
+      .Postingan-Menu img {
+        width: 20px;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .Postingan {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+      }
+      .Des-User-Post {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        padding: 10px;
+      }
+      .Post-Konten-Postingan {
+        justify-content: space-between;
+        display: flex;
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    /*      Keranjang       */
+    * {
+      .Des-User-Keranjang {
+        width: 100%;
+        height: auto;
+        display: block;
+        justify-content: space-between;
+      }
+      .Post-Konten-Keranjang {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+        border-radius: 20px;
+      }
+      .Konten-Keranjang {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+      }
+      .Konten-Keranjang-Image {
+        width: 30%;
+        height: auto;
+      }
+      .Konten-Keranjang-Image img {
+        width: 100%;
+        height: 5rem;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .Konten-Keranjang-Informasi {
+        width: 100%;
+        margin-left: 10px;
+        justify-content: center;
+        font-size: 10px;
+        display: block;
+      }
+      .Keranjang-Informasi-Judul {
+        width: 100%;
+      }
+      .Konten-Keranjang-Button {
+        width: 60%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+      }
+      .Konten-Keranjang-Button button {
+        width: 8rem;
+        height: 1.1rem;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        position: relative;
+        border: none;
+        border-radius: 4px;
+      }
+      .Konten-Keranjang-Button button:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+      .Keranjang-Button-Beli {
+        background: #00aa01;
+        color: white;
+        border: 0px;
+      }
+    }
+
+    /*      Produkmu        */
+    * {
+      .Des-User-Produkmu {
+        width: 100%;
+        height: auto;
+        display: block;
+        justify-content: space-between;
+      }
+      .Post-Konten-Produkmu {
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+        border-radius: 20px;
+      }
+      .Konten-Produkmu {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+      }
+      .Konten-Produkmu-Image {
+        width: 30%;
+        height: auto;
+      }
+      .Konten-Produkmu-Image img {
+        width: 100%;
+        height: 5rem;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .Konten-Produkmu-Informasi {
+        width: 100%;
+        margin-left: 10px;
+        justify-content: center;
+        font-size: 10px;
+        display: block;
+      }
+      .Produkmu-Informasi-Judul {
+        width: 100%;
+        font-size: 12px;
+      }
+      .Konten-Produkmu-Button {
+        width: 60%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+      }
+      .Konten-Produkmu-Button button {
+        width: 5rem;
+        height: 1.1rem;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        position: relative;
+        border: none;
+        border-radius: 4px;
+      }
+      .Konten-Produkmu-Button button:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+      .Produkmu-Button-Beli {
+        background: #00aa01;
+        color: white;
+        border: 0px;
+      }
+      .iklan-button {
+        position: absolute;
+        top: 31.4rem;
+        left: 17rem;
+        display: block;
+      }
+      .iklan-button button {
+        width: 3rem;
+        height: 1.8rem;
+        background: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        align-items: end;
+      }
+      .iklan-button svg {
+        width: 1rem;
+        height: 1rem;
+        align-items: end;
+      }
+      .iklan-bar{
+        position: absolute;
+        width: 7rem;
+        height: 2rem;
+        background: black;
+        border-radius: 5px;
+      }
+      .iklan-bar-kerangka{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 2rem;
+        font-size: 7px;
+        color: white;
+        
+      }
+    }
+
+    .Des-User-Reels {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .Des-User-Reels img {
+      width: 100%;
+      height: 180px;
+    }
+    .Post-Konten-Reels {
+      justify-content: space-between;
+      display: flex;
+      width: 120px;
+      height: 120px;
+    }
+
+    /*      Display Post        */
+    * {
+      .post-feed-mobile {
+        width: 100%;
+        height: 70px;
+        z-index: 0;
+        position: relative;
+        background: white;
+        display: flex;
+        align-items: center;
+      }
+      .post-feed-mobile a {
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: black;
+      }
+      .display-post-feed {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .post-feed {
+        width: 100%;
+        background: black;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+      }
+      .post-feed-image {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .post-feed-image img {
+        width: 100%;
+        align-items: center;
+      }
+
+      .post-feed-comment {
+        width: 100%;
+        padding: 0px;
+        color: white;
+      }
+      .post-feed-comment-akun {
+        display: none;
+        align-items: center;
+        padding: 20px;
+      }
+      .post-feed-comment-akun-image {
+        width: 2.7rem;
+        height: 3rem;
+        margin-right: 1rem;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .post-feed-comment-akun-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 80px;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .post-feed-comment-public {
+        margin-top: 20px;
+        padding: 20px;
+        display: block;
+      }
+      .post-feed-comment-public-all {
+        display: flex;
+        margin-bottom: 40px;
+        font-size: 16px;
+      }
+      .post-feed-comment-public-KomentarInfo {
+        width: 80%;
+      }
+      .post-feed-comment-public-username {
+        font-weight: 600;
+      }
+      .post-feed-comment-public-komentar {
+        font-size: 12px;
+      }
+      .post-feed-footer {
+        width: 100%;
+        height: 20px;
+      }
+    }
+
+    /*      Display Reels        */
+    * {
+      .reels-feed-mobile {
+        width: 100%;
+        height: 70px;
+        z-index: 0;
+        position: relative;
+        background: white;
+        display: flex;
+        align-items: center;
+      }
+      .reels-feed-mobile a {
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: black;
+      }
+      .display-reels-feed {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .reels-feed {
+        width: 100%;
+        background: black;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+      }
+      .reels-feed-image {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .reels-feed-image video {
+        width: 100%;
+        align-items: center;
+        border-radius: 0px;
+      }
+
+      .reels-feed-comment {
+        width: 100%;
+        padding: 0px;
+        color: white;
+      }
+      .reels-feed-comment-akun {
+        display: none;
+        align-items: center;
+        padding: 20px;
+      }
+      .post-feed-comment-akun-image {
+        width: 2.7rem;
+        height: 3rem;
+        margin-right: 1rem;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .reels-feed-comment-akun-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 80px;
+        object-fit: cover;
+        object-position: center center;
+      }
+      .reels-feed-comment-public {
+        margin-top: 20px;
+        padding: 20px;
+        display: block;
+      }
+      .reels-feed-comment-public-all {
+        display: flex;
+        margin-bottom: 40px;
+        font-size: 16px;
+      }
+      .reels-feed-comment-public-KomentarInfo {
+        width: 80%;
+      }
+      .reels-feed-comment-public-username {
+        font-weight: 600;
+      }
+      .reels-feed-comment-public-komentar {
+        font-size: 12px;
+      }
+      .reels-feed-footer {
+        width: 100%;
+        height: 20px;
+      }
+    }
+  }
+}

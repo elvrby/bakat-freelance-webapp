@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^user$ user.php [L]
+RewriteRule ^edit-profile$ edit-profile.php [L]
