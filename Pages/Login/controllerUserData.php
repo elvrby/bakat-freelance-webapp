@@ -48,8 +48,8 @@ if(isset($_POST['daftar'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'socialmediaku0102@gmail.com';
-        $mail->Password = 'zijkunmioeclqjbn';
+        $mail->Username = 'Your email';
+        $mail->Password = 'Your Password'; 
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
