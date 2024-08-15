@@ -47,3 +47,6 @@ Open in your browser for preview: localhost/bakat
 
 Optional:
 * If you have hosting you can set up to your hosting server for make it online
+
+**Noted:**
+This project is free to use and there will be no further updates to this repository
