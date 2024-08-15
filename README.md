@@ -31,3 +31,19 @@ Here are the steps to run the project locally
 3. **Clone the repository**
    ```bash
 	git clone https://github.com/elvrby/bakat-freelance-webapp.git
+
+4. **Setup Database in MySQL**
+   * Make sure your project in Xampp folder -> Htdocs
+   * Go to localhost/phpmyadmin
+   * import bakat.sql in Bakat folder to your phpmyadmin
+
+5. **Link email for SMTP**
+   * Inside bakat folder go to Pages -> Login -> controllerUserData.php
+   * scroll down and changed your email and your email password
+  
+**And then it's finished and your project is ready to go 😊**
+
+Open in your browser for preview: localhost/bakat
+
+Optional:
+* If you have hosting you can set up to your hosting server for make it online
